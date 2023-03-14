@@ -7,7 +7,7 @@ const client = redis.createClient({
   host: 'redis',
   port: 6379
 });
-#teste
+
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
   <!DOCTYPE html>
   <html>
     <head>
-      <title>Formulário</title>
+      <title>Formulário DEV</title>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
       <style>
         body {
@@ -72,7 +72,7 @@ app.get('/', (req, res) => {
       <div class="container">
         <div class="image-container">
         </div>
-        <h1>Formulário</h1>
+        <h1>Formulário DEV</h1>
         <form action="/" method="post">
           <div class="form-group">
             <label for="inputNome">Nome:</label>
