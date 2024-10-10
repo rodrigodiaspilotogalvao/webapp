@@ -13,7 +13,7 @@ pipeline {
                     kubectl config use-context default
                     
                     # Realizar o rollout
-                    kubectl rollout restart deployment <NOME_DO_DEPLOYMENT>
+                    kubectl rollout restart deployment nginx-deployment
                     """
                 }
             }
